@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prueba Jquery Mobile</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="../css/themes/pruebajqm.css" />
+    <!--<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile.structure-1.3.1.min.css" />-->
+    <link rel="stylesheet" href="../css/jquery.mobile.structure-1.3.1.min.css" />
+	<!--<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>-->
+    <script src="../lib/jquery-2.0.3.js"></script>
+	<!--<script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>-->
+    <script src="../lib/jquery.mobile-1.3.1.min.js"></script>
+</head>
+<body>
+
+<div data-role="page" id="p1" data-title="home">
+
+	<div data-role="header">
+		<h1>P&aacute;gina 1</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">
+		<p>Page content goes here.</p>
+        <a href="#p2" data-role="button" data-transition="slidedown" data-rel="dialog">Ir a P&aacute;gina 2</a>
+        <a href="#p3" data-role="button" data-transition="slidedown">Ir a P&aacute;gina 3</a>
+	</div><!-- /content -->
+
+	<div data-role="footer" data-position="fixed">
+		<h4>Pie de P&aacute;gina</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+<div data-role="page" id="p2" data-title="Segunda Pag">
+
+	<div data-role="header">
+		<h1>P&aacute;gina 2</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">
+		<p>Page content goes here.</p>
+        <a href="#p1" data-role="button" data-transition="slide" data-rel="dialog">Volver a P&aacute;gina 1</a>
+	</div><!-- /content -->
+
+	<div data-role="footer" data-position="fixed">
+		<h4>Pie de P&aacute;gina</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+<div data-role="page" id="p3" data-title="Tercera Pag">
+
+	<div data-role="header">
+		<h1>P&aacute;gina 3</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">
+		<p>Page content goes here.</p>
+        <a href="dialogo.html" data-role="button" data-transition="slidedown">Volver a P&aacute;gina 1</a>
+	</div><!-- /content -->
+
+	<div data-role="footer" data-position="fixed">
+		<h4>Pie de P&aacute;gina</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+</body>
+</html>
