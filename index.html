@@ -27,7 +27,7 @@
 <div data-role="page" id="p1" data-title="home">
 
 	<div data-role="header" data-position="fixed">
-    	<a href="#" data-icon="back" data-iconpos="notext"></a>
+    	<a href="#" data-rel="back" data-icon="back">Volver</a>
 		<h1>P&aacute;gina 1</h1>
         <a href="#" data-icon="check">button2</a>        
 	</div><!-- /header -->
@@ -48,7 +48,15 @@
 	</div><!-- /content -->
 
 	<div data-role="footer" data-position="fixed">
-		<h4>Pie de P&aacute;gina</h4>
+    	<div data-role="navbar">
+        	<ul>
+            	<li><a href="#" data-icon="arrow-l"></a></li>
+                <li><a href="#" data-icon="check"></a></li>
+                <li><a href="#" data-icon="star"></a></li>
+                <li><a href="#" data-icon="delete"></a></li>
+                <li><a href="#" data-icon="arrow-r"></a></li>
+            </ul>
+        </div>
 	</div><!-- /footer -->
 </div><!-- /page -->
 
