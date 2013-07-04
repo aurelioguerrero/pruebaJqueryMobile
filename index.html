@@ -26,19 +26,18 @@
 
 <div data-role="page" id="p1" data-title="home">
 
-	<div data-role="header" data-position="fixed">
-    	<a href="#" data-rel="back" data-icon="back">Volver</a>
+	<div data-role="header" data-position="fixed" class="segmented-control">
+    	<!--<a href="#" data-rel="back" data-icon="back">Volver</a>
 		<h1>P&aacute;gina 1</h1>
-        <a href="#" data-icon="check">button2</a>        
-	</div><!-- /header -->
-   
-    	<div class="segmented-control ui-bar-d">
+        <a href="#" data-icon="check">button2</a>  -->            
         	<div data-role="controlgroup" data-type="horizontal">
 				<a href="#" data-role="button" class="ui-control-active">In Theatres</a>
 				<a href="#" data-role="button" class="ui-control-inactive">Coming Soon</a>
 				<a href="#" data-role="button" class="ui-control-inactive">Top Rated</a>
-			</div>
-		</div>
+		</div>  
+	</div><!-- /header -->
+   
+    	
    
 
 	<div data-role="content">
@@ -47,16 +46,21 @@
         <a href="#p3" data-role="button" data-transition="slidedown">Ir a P&aacute;gina 3</a>
 	</div><!-- /content -->
 
-	<div data-role="footer" data-position="fixed">
-    	<div data-role="navbar">
+	<div data-role="footer" data-position="fixed" class="segmented-control">
+    	<div data-role="controlgroup" data-type="horizontal">
+			<a href="#" data-role="button" class="ui-control-active">List</a>
+			<a href="#" data-role="button" class="ui-control-inactive">Day</a>
+			<a href="#" data-role="button" class="ui-control-inactive">Month</a>
+		</div>
+    	<!--<div data-role="navbar">
         	<ul>
-            	<li><a href="#" data-icon="arrow-l"></a></li>
-                <li><a href="#" data-icon="check"></a></li>
-                <li><a href="#" data-icon="star"></a></li>
-                <li><a href="#" data-icon="delete"></a></li>
-                <li><a href="#" data-icon="arrow-r"></a></li>
+            	<li><a href="#" data-icon="arrow-l">Anterior</a></li>
+                <li><a href="#" data-icon="check">Siguiente</a></li>
+                <li><a href="#" data-icon="star">Preferido</a></li>
+                <li><a href="#" data-icon="delete">Eliminar</a></li>
+                <li><a href="#" data-icon="arrow-r">Siguiente</a></li>
             </ul>
-        </div>
+        </div>-->
 	</div><!-- /footer -->
 </div><!-- /page -->
 
